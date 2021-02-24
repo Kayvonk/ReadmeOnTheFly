@@ -41,8 +41,8 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "test",
-        message: "Enter your text for the test section."
+        name: "tests",
+        message: "Enter your text for the tests section."
     },
     {
         type: "list",
@@ -54,7 +54,7 @@ inquirer.prompt([
             { name: "CC" },
             { name: "ELP" },
             { name: "GNU" },
-            { name: "IBM" },
+            { name: "IPL" },
             { name: "MIT" },
             { name: "MPL" },
             { name: "Zlib" }
