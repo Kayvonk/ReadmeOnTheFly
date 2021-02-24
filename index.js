@@ -8,7 +8,6 @@ inquirer.prompt([
         type: "input",
         name: "title",
         message: "Enter the title of your project."
-
     },
     {
         type: "input",
@@ -24,15 +23,6 @@ inquirer.prompt([
         type: "input",
         name: "usage",
         message: "Enter your text for the usage section."
-    },
-    {
-        type: "list",
-        name: "addImg",
-        message: "Would you like to add an image to your usage section? ",
-        choices: [
-            { name: "yes" },
-            { name: "no" },
-        ]
     },
     {
         type: "input",
@@ -56,8 +46,8 @@ inquirer.prompt([
     },
     {
         type: "list",
-        name: "liscense",
-        message: "Which liscense will you use for your project?",
+        name: "license",
+        message: "Which license will you use for your project?",
         choices: [
             { name: "Apache" },
             { name: "BSD" },

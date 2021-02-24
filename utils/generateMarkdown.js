@@ -9,11 +9,11 @@ function generateMarkdown(response) {
   //         description = 'MIT LICSCENSE JARGON'
   //         break;
   // }
-  return `![License Badge](https://img.shields.io/badge/license-${response.liscense}-brightgreen)
+  return `![License Badge](https://img.shields.io/badge/license-${response.license}-brightgreen)
 
-#${response.title} 
+# ${response.title} 
 
-##Table of Contents
+## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -22,27 +22,27 @@ function generateMarkdown(response) {
 * [License](#license)
 * [Questions](#questions)
 
-(#description)
+### Description
 ${response.description}
 
-(#installation)
+### Installation
 ${response.installation}
 
-(#usage)
+### Usage
 ${response.usage}
 
 ![${response.imgAlt}](${response.imgUrl})
 
-(#credits)
+### Credits
 ${response.contributing}
 
-(#tests)
+### Tests
 ${response.test}
 
-(#license)
-This project is licensed with ${response.liscense}.
+### License
+This project is licensed with ${response.license}.
 
-(#questions)
+### Questions
 Follow me on [Github](https://github.com/${response.github}).
 
 To contact me, send an email to ${response.email} with your name and inquiry.`
